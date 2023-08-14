@@ -1,0 +1,66 @@
+/* This element changes the background of my webpage */
+
+body {
+    background-color: bisque;
+}
+
+/* This element adds a border around the pageHeader html class ands aligns the text to the center of the screen */
+
+.pageHeader {
+    text-align: center;
+    /* border: 3px solid black; */
+    margin: 3px;
+}
+
+/* This element sets up flexbox for all of the subsections of the pageArticle_body html class */
+
+.pageArticle_body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* This element creates a border around the repInfo html class */
+
+.repInfo {
+    /* border: 3px solid black; */
+    margin: 3px;
+    width: 30%;
+}
+
+/* This element sets the width of the repInfo_image html class to be 100% of the container it is in */
+
+.repInfo_image {
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+/* This element creates a border around the repCommittees html class */
+
+.repCommittees {
+    /* border: 3px solid black; */
+    margin: 3px;
+    width: 30%;
+}
+
+/* This element sets the repCommittees_sub class to be italic, and sets a margin of 5px, showing how it doesn't effect the parent conatiner */
+
+.repCommittees_sub {
+    margin: 5px;
+    font-style: italic;
+}
+
+/* This element creates a border around the repLegislation html class */
+
+.repLegislation {
+    /* border: 3px solid black; */
+    margin: 3px;
+    width: 30%;
+}
+
+/* This element sets a margin of 10px to all li (list) elements found in the .repLegislation_liks html class */
+
+.repLegislation_links li {
+    margin: 10px;
+}
